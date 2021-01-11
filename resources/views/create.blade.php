@@ -83,7 +83,7 @@
                     var start_time=$("#start_time").val()
                     var end_time=$("#end_time").val()
                     var desc=$("#desc").val()
-                    var _token="{{csrf_token()}}"
+                    var _token="{{csrf_token()}}" 
                     console.log(_token)
                     $.ajax({
                         type: "POST",
